@@ -1,0 +1,2 @@
+/media/kalenpw/My Book/Backupstuff/Projects/Deliverable6/CoreObjectsLibrary/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/media/kalenpw/My Book/Backupstuff/Projects/Deliverable6/CoreObjectsLibrary/obj/Debug/CoreObjectsLibrary.dll

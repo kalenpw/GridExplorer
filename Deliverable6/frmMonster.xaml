@@ -1,0 +1,26 @@
+﻿<Window x:Class="Deliverable6.frmMonster"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deliverable6"
+        mc:Ignorable="d"
+        Title="A monster!" Height="343.948" Width="331"
+        KeyUp="Window_KeyUp">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="241*"/>
+            <RowDefinition Height="30*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnAttack" Content="Attack" Margin="0,0.333,146.333,-0.333" VerticalAlignment="Top" Height="30" Click="btnAttack_Click" Grid.Row="1"/>
+        <Button x:Name="btnRunAway" Content="Run away" Margin="161,0,-1,0" VerticalAlignment="Top" Height="30" Click="btnRunAway_Click" Grid.Row="1"/>
+        <Rectangle Fill="#FF04AFFF" HorizontalAlignment="Left" Height="269" Stroke="Black" VerticalAlignment="Top" Width="162" Opacity="0.5" Margin="161,0,-1,0"/>
+        <Rectangle Fill="#FFFF1616" HorizontalAlignment="Left" Height="269" Stroke="Black" VerticalAlignment="Top" Width="162" Opacity="0.5"/>
+        <Label x:Name="lblMonster" Content="Monster" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="131"/>
+        <Label x:Name="lblHero" Content="Player" HorizontalAlignment="Left" Margin="158,0,0,0" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="tbMonsterDisplay" HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="205" Width="131"/>
+        <TextBlock x:Name="tbPlayerDisplay" HorizontalAlignment="Left" Margin="182,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="205" Width="131"/>
+        <Label x:Name="lblDisplayMessage" Content="You encountered a monster.           What would you like to do?" HorizontalAlignment="Left" Margin="0,241,-14,0" VerticalAlignment="Top" Width="337" FontSize="11"/>
+
+    </Grid>
+</Window>

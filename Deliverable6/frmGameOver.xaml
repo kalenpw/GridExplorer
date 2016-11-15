@@ -1,0 +1,17 @@
+﻿<Window x:Class="Deliverable6.frmGameOver"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deliverable6"
+        mc:Ignorable="d"
+        Title="Game Over!" Height="300" Width="300"
+        KeyUp="Window_KeyUp">
+    <Grid>
+        <Button x:Name="btnRestart" Content="Restart" HorizontalAlignment="Left" Margin="0,209,0,0" VerticalAlignment="Top" Width="97" Height="60" Click="btnRestart_Click"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="97,209,0,0" VerticalAlignment="Top" Width="99" Height="60" Click="btnExit_Click"/>
+        <Button x:Name="btnOk" Content="Ok" HorizontalAlignment="Left" Margin="196,209,-1,0" VerticalAlignment="Top" Width="97" Height="60" Click="btnOk_Click"/>
+        <TextBlock x:Name="tbGameOverDisplay" HorizontalAlignment="Left" Margin="17,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="95" Width="138"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,4 @@
+D:\Documents\Visual Studio 2015\Projects\Deliverable6\CoreObjectsLibrary\bin\Debug\CoreObjectsLibrary.dll
+D:\Documents\Visual Studio 2015\Projects\Deliverable6\CoreObjectsLibrary\bin\Debug\CoreObjectsLibrary.pdb
+D:\Documents\Visual Studio 2015\Projects\Deliverable6\CoreObjectsLibrary\obj\Debug\CoreObjectsLibrary.dll
+D:\Documents\Visual Studio 2015\Projects\Deliverable6\CoreObjectsLibrary\obj\Debug\CoreObjectsLibrary.pdb

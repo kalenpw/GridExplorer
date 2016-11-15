@@ -1,0 +1,36 @@
+﻿<Window x:Class="Deliverable6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deliverable6"
+        mc:Ignorable="d"
+        Title="Grid Explorer" Height="540.365" Width="641.596"
+        KeyUp="Window_KeyUp">
+    <Grid Margin="0,0,0,3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="339*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="24*"/>
+            <RowDefinition Height="44*"/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="btnLeft" Content="Left" HorizontalAlignment="Left" Margin="0,24,0,0" VerticalAlignment="Top" Width="158" Height="44" Click="btnLeft_Click" Grid.Row="3" Grid.RowSpan="2"/>
+        <Button x:Name="btnUp" Content="Up" HorizontalAlignment="Left" Margin="158,24,0,0" VerticalAlignment="Top" Width="158" Height="44" Click="btnUp_Click" Grid.Row="3" Grid.RowSpan="2"/>
+        <Button x:Name="btnDown" Content="Down" HorizontalAlignment="Left" Margin="316,24,0,0" VerticalAlignment="Top" Width="158" Height="44" Click="btnDown_Click" Grid.Row="3" Grid.RowSpan="2"/>
+        <Button x:Name="btnRight" Content="Right" HorizontalAlignment="Left" Margin="474,24,0,0" VerticalAlignment="Top" Width="158" Height="44" Click="btnRight_Click" Grid.Row="3" Grid.RowSpan="2"/>
+        <Button x:Name="btnRefreshMap" Content="Reset" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="632" Height="24" Background="Black" Foreground="White" Click="btnRefreshMap_Click" Grid.Row="3" />
+        <Grid x:Name="grdGameBoard" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Grid.RowSpan="2" Margin="0,19,-0.333,5"/>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="634">
+            <MenuItem Header="Save" Click="MenuItem_Click"/>
+            <MenuItem Header="Load" Click="MenuItem_Click_1"/>
+        </Menu>
+        <Label x:Name="lblPlayer" Content="Player" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="64" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="lblInventory" Content="Inventory" HorizontalAlignment="Left" Margin="316,0,0,0" Grid.Row="2" VerticalAlignment="Top" Width="79" FontWeight="Bold" FontSize="14"/>
+        <TextBlock x:Name="tbPlayerDisplay" HorizontalAlignment="Left" Margin="10,29,0,0" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="51" Width="301"/>
+        <TextBlock x:Name="tbInventoryDisplay" HorizontalAlignment="Left" Margin="330,29,0,0" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="51" Width="304"/>
+
+
+    </Grid>
+</Window>
